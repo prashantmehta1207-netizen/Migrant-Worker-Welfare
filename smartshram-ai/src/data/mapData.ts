@@ -1,0 +1,58 @@
+import { MapDistrict } from '../types'
+
+export const mapDistricts: MapDistrict[] = [
+  {
+    id: 'ahmedabad',
+    name: 'Ahmedabad',
+    cx: 200,
+    cy: 210,
+    workerCount: 24810,
+    alertCount: 21,
+    industries: ['Construction', 'Textile', 'Manufacturing', 'Hospitality'],
+  },
+  {
+    id: 'surat',
+    name: 'Surat',
+    cx: 155,
+    cy: 320,
+    workerCount: 31440,
+    alertCount: 42,
+    industries: ['Textile', 'Diamond', 'Hospitality'],
+  },
+  {
+    id: 'vadodara',
+    name: 'Vadodara',
+    cx: 210,
+    cy: 265,
+    workerCount: 18320,
+    alertCount: 33,
+    industries: ['Diamond', 'Manufacturing', 'Construction'],
+  },
+  {
+    id: 'rajkot',
+    name: 'Rajkot',
+    cx: 120,
+    cy: 200,
+    workerCount: 15640,
+    alertCount: 22,
+    industries: ['Manufacturing', 'Construction'],
+  },
+  {
+    id: 'bharuch',
+    name: 'Bharuch',
+    cx: 175,
+    cy: 295,
+    workerCount: 8930,
+    alertCount: 50,
+    industries: ['Hospitality', 'Construction'],
+  },
+  {
+    id: 'vapi',
+    name: 'Vapi',
+    cx: 140,
+    cy: 355,
+    workerCount: 5230,
+    alertCount: 8,
+    industries: ['Manufacturing', 'Textile'],
+  },
+]
